@@ -1,0 +1,30 @@
+
+create virtual environment
+
+python -m venv env
+pip install django
+pip install --upgrade pip
+python -m pip install --upgrate pip
+django-admin startproject cardealer .
+python manage.py runserver
+python manage.py startapp pages
+
+set github for a project
+------------------------
+
+create a repository of your project 
+git init
+git add -A
+git commit -m "first commit"
+git remote add origin https://github.com/Pgirardin/CarDealer.git
+git push -u origin main or ( 
+-git config --global push.autoSetupRemote true
+-git push
+)
+
+git status ( to show which files has been modified)
+
+
+to add more files on your github project repository
+git add -A 
+git commit -m " an other commits";
